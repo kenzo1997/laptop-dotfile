@@ -1,0 +1,17 @@
+configuration {
+	display-drun: "Application: ";
+	drun-display-format: "{icon} {name}";
+	modi: "window,run,drun";
+	show-icons: true;	
+	font: "mono 14";
+  lines: 15;
+	columns: 1;
+	bw: 0;
+	eh: 1;
+	auto-select: false;
+	line-margin: 18;
+	separator-style: "solid";
+	hide-scrollbar: true;
+}
+
+@import "~/.cache/wal/colors-rofi-dark.rasi"
